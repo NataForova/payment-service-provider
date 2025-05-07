@@ -16,7 +16,7 @@ import java.util.Optional;
 @Slf4j
 @Service
 public class PaymentService {
-    private static final BigDecimal MIN_AMOUNT = new BigDecimal("0.000000000000000001");
+    private static final BigDecimal MIN_AMOUNT = new BigDecimal("0.00001");
     private static final BigDecimal MAX_AMOUNT = new BigDecimal("999999.99");
     private static final int MAX_CUSTOMER_ID_LENGTH = 128;
 
