@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Error</title>
+</head>
+<body>
+<h2>An error occurred</h2>
+<!-- Display error message -->
+<p th:if="${errorMessage}" th:text="${errorMessage}" style="color:red;"></p>
+<!-- Optionally provide a return or retry button -->
+<a th:href="@{/}">Return to Payment Form</a>
+</body>
+</html>

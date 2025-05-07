@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  payment-service-provider:
+      build: .
+      container_name: payment-service-provider
+      ports:
+        - "8080:8080"
+      env_file:
+        - .env
