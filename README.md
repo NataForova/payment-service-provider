@@ -10,3 +10,7 @@ PAY_TECH_TOKEN= # token for work with sandbox enviroment
 
 * For run in docker docker container
 `docker compose up --build -d  `
+
+app available after start on
+
+http://localhost:8080/
